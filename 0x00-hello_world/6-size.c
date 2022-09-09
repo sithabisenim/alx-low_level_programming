@@ -4,7 +4,7 @@
  * main - print the string in the put funtion
  *
  * Description: using the main fuction
- * this program prints Programming is like building a multilingual
+ * this program prints Programming is like
  * Return: 0
  */
 int main(void)
