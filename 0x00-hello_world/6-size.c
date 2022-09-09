@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - print the string in the put funtion
  *
@@ -14,8 +13,7 @@ int main(void)
 	long li;
 	long long lli;
 	float f;
-
-	printf("Size of a char: %ld bytes(s)\n", sizeof(c));
+        printf("Size of a char: %ld bytes(s)\n", sizeof(c));
 	printf("Size of an int: %ld bytes(s)\n", sizeof(i));
 	printf("Size of a long int: %ld byte(s)\n", sizeof(li));
 	printf("Size of a long long int: %ld bytes(s)\n", sizeof(lli));
