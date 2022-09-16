@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_diagonal - function that draws a diagonal line
- * @n: input number of times '\' should be printed
+ * @n: parameter
  * Return: nothing
  */
 void print_diagonal(int n)
@@ -16,6 +16,7 @@ void print_diagonal(int n)
 			{
 				_putchar(' ');
 			}
+
 			_putchar('\\');
 
 			if (co == (n - 1))
