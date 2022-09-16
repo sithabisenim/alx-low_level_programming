@@ -13,14 +13,20 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		for (co = ; co <= n; co++)
+		for (co = 0; co <= n; co++)
 		{
-			for (sp = ; sp < co; sp++)
+			for (sp = 0; sp < co; sp++)
 			{
 				_putchar(' ');
 			}
 			_putchar('\\');
+
+			if (co == (n - 1))
+			{
+				continue;
+			}
 			_putchar('\n');
 		}
 	}
+	_putchar('\n');
 }
