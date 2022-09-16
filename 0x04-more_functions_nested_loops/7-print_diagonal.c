@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_diagonal - function that draws a diagonal line
+ * print_diagonal - function that 
+ * draws a diagonal line
  * @n: parameter
  * Return: nothing
  */
@@ -16,9 +17,9 @@ void print_diagonal(int n)
 			{
 				_putchar(' ');
 			}
-
+			
 			_putchar('\\');
-
+			
 			if (co == (n - 1))
 			{
 				continue;
