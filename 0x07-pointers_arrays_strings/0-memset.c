@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *main -function that fills a memory with constant byte
+ *_memset -function that fills a memory with constant byte
  *@s: starting adrress
  *@b: value
  *@n: no of bytes
