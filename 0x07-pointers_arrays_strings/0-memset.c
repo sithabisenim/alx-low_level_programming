@@ -3,7 +3,7 @@
 /**
  *main -function that fills a memory with constant byte
  *@s: starting adrress
- *@d: value
+ *@b: value
  *@n: no. of bytes
  *Return: Always 0
  */
