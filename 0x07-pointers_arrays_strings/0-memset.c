@@ -1,7 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-
-
 /**
  *main -function that fills a memory with constant byte
  *@s: starting adrress
