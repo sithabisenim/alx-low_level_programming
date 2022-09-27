@@ -1,1 +1,1 @@
-Pointers, arrays and strings basic
+0x07. C - Even more pointers, arrays and strings
