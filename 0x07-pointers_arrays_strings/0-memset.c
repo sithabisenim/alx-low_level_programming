@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  *_memset -function that fills a memory with constant byte
  *@s: starting adrress
