@@ -1,4 +1,6 @@
 #include "main.h"
+
+int actual_prime(int n, int i);
 /**
  * is_prime_number - returns 1 if prime, 0 otherwise
  * @n: input
@@ -6,16 +8,16 @@
  */
 int is_prime_number(int n)
 {
-	int i, c;
+	if (n <= 1)
+		return (0);
+	return (is_prime_number(n, n - 1));
+}
 
-	for (i = 1; i < n; c++)
-	{
-	if (n % i == 0)
-	{
-	c++;
-	}
-	}
-if (c == 2)
-return (1);
-return (0);
+int actual_prime(int n, int i)
+{
+	if (i == 1)
+		return (1);
+	if (n % i == 0 && i > 0)
+		return (0);
+	return (actual_prime(n, i - 1));
 }
