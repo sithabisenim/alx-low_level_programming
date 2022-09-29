@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * actual_prime - return 1 for prime, 0 otherwise
+ * @n: input
+ * @i: counter
+ * return: 1 for prime, 0 otherwise
+ */
 int actual_prime(int n, int i);
 /**
  * is_prime_number - returns 1 if prime, 0 otherwise
