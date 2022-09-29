@@ -1,4 +1,4 @@
-#incluse "main.h"
+#include "main.h"
 /**
  * is_prime_number - returns 1 if prime, 0 otherwise
  * @n: input
