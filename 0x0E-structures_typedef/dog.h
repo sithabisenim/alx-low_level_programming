@@ -7,6 +7,7 @@
  *@age: age
  *@owner: owner
  * Description: This struct is for dog
+ * Return: variable
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
